@@ -87,3 +87,15 @@ a:hover {
 #movies img {
   border-radius: 5px;
 }
+
+@media screen and (max-width: 600px) {
+  .white-box {
+    width: 95%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .hide-when-small {
+    display: none
+  }
+}
