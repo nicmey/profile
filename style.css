@@ -1,0 +1,89 @@
+body {
+  background-color: rgb(240,240,240);
+  font-family: 'Roboto Condensed', sans-serif;
+  text-align: center;
+  color: rgb(125, 125, 125);
+  font-weight: 300;
+}
+
+
+h1, h2, h3, h4 {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.green {
+  color: rgb(95, 207, 128);
+}
+
+a {
+  text-decoration: none;
+  color: rgba(125,125,125,0.7);
+  font-weight: 400;
+}
+
+a:hover {
+  color: rgb(95, 207, 128);
+}
+
+.white-box {
+  background-color: white;
+  width: 500px;
+  margin: 10px auto;
+  padding: 10px;
+  box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+#my_portrait {
+  width: 150px ;
+  border-radius: 50%;
+  border: 1px solid #7d7d7d;
+}
+
+.list-inline{
+  padding-left: 0px;
+}
+
+.list-inline li{
+  display: inline-block;
+  margin: 10px 30px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#page-content {
+  margin-left: 50px;
+}
+
+#sidebar {
+  position: fixed;
+  width: 50px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: rgb(56, 64, 71)
+}
+
+#sidebar ul{
+  list-style: none;
+  padding-left: 0px;
+
+}
+
+#sidebar li{
+  margin: 50px 0px;
+}
+
+#sidebar a:hover{
+  color:white;
+}
+
+#movies p {
+  padding: 5px;
+}
+
+#movies img {
+  border-radius: 5px;
+}
